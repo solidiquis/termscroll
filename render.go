@@ -27,8 +27,14 @@ func InitRender(sl []string) (func(), func(), func() int) {
 			fmt.Println(sl[i])
 		}
 
-		y := 11
-		if current < len(sl)-1 {
+		var y int
+		if len(sl) > 10 {
+			y = 11
+		} else {
+			y = len(sl) + 1
+		}
+
+		if current < len(sl)-1 && len(sl) > 10 {
 			fmt.Printf("%s\n", DOWN_POINTER)
 		} else {
 			y--

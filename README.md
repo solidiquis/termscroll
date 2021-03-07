@@ -1,4 +1,5 @@
 # termscroll
+Example program that leverages termscroll to change wallpapers from the terminal:
 <center>
   <img src="https://github.com/solidiquis/termscroll/blob/master/assets/demo.gif">
 </center>
